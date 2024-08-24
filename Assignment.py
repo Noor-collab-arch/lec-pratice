@@ -55,6 +55,12 @@ time_min = time_sec/60
 print("time in minutes is ", time_min, "minutes")'''
 
 #min to sec sec = min * 60
-time_min = float(input("enter time in min :"))
+'''time_min = float(input("enter time in min :"))
 time_sec = time_min*60
-print("time in seconds is ", time_sec, "sec")
+print("time in seconds is ", time_sec, "sec")'''
+
+#percentage obt/total * 100
+obt_mar = int(input("Enter Obtained marks :"))
+ttl_mar = int(input("Enter total marks :"))
+perct_mar = obt_mar/ttl_mar * 100
+print("Your Percentage is... ", perct_mar, "%")
