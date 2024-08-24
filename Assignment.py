@@ -31,7 +31,30 @@ print("The area of rectangle is:" , area_rect)'''
 
 
 #Area of a Circle: Formula: Area = π × radius²
-rad_cir = float(input("Enter the radius of circle:"))
+'''rad_cir = float(input("Enter the radius of circle:"))
 Pi = 3.14 
 area_circ = Pi*float(rad_cir) **2
-print("The area of circle is: ", area_circ)
+print("The area of circle is: ", area_circ)'''
+
+
+#Surface Area of a Cube: Formula: Surface Area = 6 × side²
+'''len_side = float(input("Enter the lenght of side of cube:"))
+Surf_area = 6 * float(len_side)**2
+print("The area of cube is " , Surf_area)'''
+
+
+# F to C  Celsius(°C)=5/9×(Fahrenheit(°F)−32)
+'''Far_temp = float(input("Enter temprature in Fahrenheit:"))
+Cel_temp = 5/9 * (Far_temp-32)
+print("tempraure in Celcius is", Cel_temp , "C")'''
+
+# sec to min   min = sec/60
+
+'''time_sec = float(input("enter time in seconds :"))
+time_min = time_sec/60
+print("time in minutes is ", time_min, "minutes")'''
+
+#min to sec sec = min * 60
+time_min = float(input("enter time in min :"))
+time_sec = time_min*60
+print("time in seconds is ", time_sec, "sec")
