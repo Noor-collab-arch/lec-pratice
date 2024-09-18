@@ -1,4 +1,4 @@
-u'''ser_name:str = 'Noor hussain'
+'''user_name:str = 'Noor hussain'
 #user_name :str = 'Noor's phone' error 
 #user_name : str= 'Noor"s phone' correct
 languae_learning = "Python"
